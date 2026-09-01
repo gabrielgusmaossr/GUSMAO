@@ -1,0 +1,19 @@
+notas = []
+
+for i in range(3):
+    nota = float(input("Digite a nota: "))
+    notas.append(nota)
+
+maior = max(notas)
+media = sum(notas) / 3
+
+if media >= 7:
+    status = "Aprovado"
+elif media < 5:
+    status = "Reprovado"
+else:
+    status = "Substitutiva"
+
+print("Maior nota:", maior)
+print("Média:", media)
+print("Status:", status)
