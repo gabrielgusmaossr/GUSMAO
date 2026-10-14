@@ -1,0 +1,74 @@
+MVP — Marketplace CRUD
+Objetivo: criar uma versão inicial de uma loja virtual em que o usuário consiga cadastrar, visualizar, atualizar e excluir produtos.
+1. Cadastrar produtos
+Adicionar nome, descrição, preço, quantidade em estoque e categoria.
+2. Consultar produtos
+Exibir todos os produtos cadastrados e seus dados.
+3. Atualizar produtos
+Alterar o preço ou a quantidade de um produto existente.
+4. Excluir produtos
+Remover um produto cadastrado
+
+produtos = {}
+contador = 1
+
+while True:
+    print("\n===== MARKETPLACE =====")
+    print("1 - Cadastrar produto")
+    print("2 - Consultar produtos")
+    print("3 - Atualizar produto")
+    print("4 - Excluir produto")
+    print("5 - Sair")
+
+    opcao = input("Escolha uma opção: ")
+
+    if opcao == "1":
+        nome = input("Nome do produto: ")
+        preco = float(input("Preço: R$ "))
+        quantidade = int(input("Quantidade: "))
+
+        produtos[contador] = {
+            "nome": nome,
+            "preco": preco,
+            "quantidade": quantidade
+        }
+
+        print("Produto cadastrado!")
+        contador = contador + 1
+
+    elif opcao == "2":
+        if len(produtos) == 0:
+            print("Nenhum produto cadastrado.")
+        else:
+            for id in produtos:
+                print("\nID:", id)
+                print("Nome:", produtos[id]["nome"])
+                print("Preço: R$", produtos[id]["preco"])
+                print("Quantidade:", produtos[id]["quantidade"])
+
+    elif opcao == "3":
+        id = int(input("Digite o ID do produto: "))
+
+        if id in produtos:
+            produtos[id]["nome"] = input("Novo nome: ")
+            produtos[id]["preco"] = float(input("Novo preço: R$ "))
+            produtos[id]["quantidade"] = int(input("Nova quantidade: "))
+            print("Produto atualizado!")
+        else:
+            print("Produto não encontrado.")
+
+    elif opcao == "4":
+        id = int(input("Digite o ID do produto: "))
+
+        if id in produtos:
+            del produtos[id]
+            print("Produto excluído!")
+        else:
+            print("Produto não encontrado.")
+
+    elif opcao == "5":
+        print("Sistema encerrado!")
+        break
+
+    else:
+        print("Opção inválida!")
