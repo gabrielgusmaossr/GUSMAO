@@ -23,7 +23,7 @@
 
 | Campo | Preencha |
 |---|---|
-| **Nome do estudante** | _escreva aqui_ |
+| **Nome do estudante** | Gabriel Gusmão Serra |
 | **Curso / Módulo** | _ex.: ADS · 2º período_ |
 | **Unidade curricular** | Algoritmos e Programação — UnDB 2026.2 |
 | **Professor** | Rondineli Seba Salomão |
