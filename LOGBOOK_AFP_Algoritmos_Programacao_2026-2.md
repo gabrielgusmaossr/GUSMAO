@@ -29,8 +29,8 @@
 | **Professor** | Rondineli Seba Salomão |
 | **App-base do meu CRUD** | Sistema de marketplace inspirado em mercado livre, desenvolvido em python |
 | **Link do meu repositório** | _https://gabrielgusmaossr/GUSMAO |
-| **Dupla de revisão (Campo 05)** | _nome do colega cujo CRUD vou revisar / que revisa o meu_ |
-| **Função neste ciclo** | _Autor do meu CRUD · Revisor do CRUD de um colega_ |
+| **Dupla de revisão (Campo 05)** | Eric Teylon Lima Lopes |
+| **Função neste ciclo** | _   Gabriel Gusmão Serra - Autor / Eric - Revisador  |
 
 ---
 
@@ -182,13 +182,15 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):**Definir uma ideia de projeto para desenvolver um CRUD e compreender como iniciar seu planejamento, mesmo tendo pouco conhecimento de programação. 
+2. **O que implementei (commits / arquivos / links):** Inicialmente, pensei em diferentes possibilidades para o projeto e tive a ideia de desenvolver um marketplace inspirado no Mercado Livre. Nesse primeiro momento, a proposta ainda estava em fase de planejamento e não comecei a programação.
+3. **Objeto(s) de conhecimento mobilizado(s):** Conceito de CRUD e suas operações: Create, Read, Update e Delete.
+Planejamento de um sistema e definição do seu objetivo.
+Estruturação inicial de um projeto de software.
+4. **Desvio ou erro encontrado + causa técnica:** Minha principal dificuldade era estar começando praticamente do zero na programação. Eu ainda não conhecia bem os comandos e a sintaxe do Python, o que dificultava entender como transformar a ideia do marketplace em código.Minha principal dificuldade era estar começando praticamente do zero na programação. Eu ainda não conhecia bem os comandos e a sintaxe do Python, o que dificultava entender como transformar a ideia do marketplace em código.
+5. **Decisão de ajuste + fonte:** A decisão inicial foi estudar os fundamentos da linguagem Python antes de tentar desenvolver funcionalidades mais complexas. O conhecimento necessário era compreender a sintaxe e a estrutura básica de um programa. A fonte de estudo utilizada precisa ser confirmada.
+6. **Feedback recebido e o que mudei:** Não tenho informações suficientes para registrar um feedback específico recebido nessa etapa.
+7. **Próximo passo:** Começar a estudar os comandos básicos de Python, compreender a entrada e saída de dados e praticar a construção de pequenos programas.
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -213,19 +215,21 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *Grupo 1 | Prazo segunda 16/11, 23h59 | SEM CONSULTA*
 
 **1a. Objetos de conhecimento identificados (mínimo 3, com vocabulário técnico):**
-1. _…_
-2. _…_
-3. _…_
-4. _…_ *(opcional)*
+1. Logica de Programação
+2. Banco de Dados
+3. Linguagem de Programação
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. _…_
-2. _…_
-3. _…_
+1. Sintaxe do Python
+2. Desenvolver a lógica necessária para organizar e executar um programa
+3. Entender como implementar as quatro operações de um CRUD
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
-> _…_
+Acredito que as principais dificuldades no desenvolvimento de um CRUD estejam relacionadas à falta de conhecimento sobre a linguagem Python e à lógica de programação.   A dificuldade em compreender a sintaxe pode provocar erros durante a escrita dos códigos.
+Além disso, a falta de domínio sobre variáveis e tipos de dados pode prejudicar o armazenamento das informações.
+Também acredito que a dificuldade em organizar as instruções pode comprometer as operações de cadastro, consulta, atualização e exclusão.
+Por isso, considero que o domínio dos conceitos básicos de programação é fundamental para desenvolver um CRUD que funcione corretamente.
 
 ### 🧩 CAMPO 02 — Aprofundamento pós-aula
 *AV Qualis — Grupo 1 | Segunda 16/11, 23h59*
@@ -234,49 +238,52 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** _…_ — **Contribuição:** _…_
-- **Referência 2:** _…_ — **Contribuição:** _…_
+Objeto 1 — Entrada e saída de dados em Python
+O comando input() permite receber informações digitadas pelo usuário, enquanto o print() apresenta informações na tela. Esses comandos são importantes para permitir a interação com o sistema e receber os dados necessários para cadastrar produtos.
+
+Objeto 2 — Variáveis e tipos de dados
+As variáveis permitem armazenar informações durante a execução do programa. Os tipos de dados, como str, int e float, determinam como essas informações serão utilizadas. No marketplace, isso é importante para armazenar nomes, identificadores e preços dos produtos.
 
 **2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
 
-> _…_
+Após aprofundar os conhecimentos sobre Python, percebi que o funcionamento de um CRUD depende de vários elementos que precisam trabalhar corretamente em conjunto.
+Não basta conhecer os comandos da linguagem, pois também é necessário compreender a lógica utilizada para organizar as instruções.
+A utilização adequada de variáveis e tipos de dados permite armazenar e manipular as informações dos produtos corretamente.
+Além disso, a entrada e a saída de dados precisam ser organizadas para evitar problemas durante a interação com o usuário.
+Dessa forma, compreendi que o desenvolvimento de um CRUD exige conhecimento da sintaxe, da lógica de programação e da manipulação de dados para que suas quatro operações funcionem corretamente.
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
 | RECURSO / MATERIAL / INSUMO | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA |
 |---|---|---|
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
+Documentação oficial do Python /2 fontes/ Consultar a sintaxe, os comandos e os tipos de dados da linguagem.
+Exercícios práticos de programação /10 exercícios/ Praticar a lógica de programação e desenvolver autonomia na escrita dos códigos.
+Tempo de estudo e prática /4 horas/ Aprofundar os conteúdos e aplicar os conhecimentos no desenvolvimento do projeto.
+
 
 #### Registro do Ciclo 02 — 19/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
-
-## 🟢 CICLO 03 — 26/08 — Operadores, fluxogramas e paradigmas
-
-<details>
-<summary>📘 Orientações do Ciclo 03 — Registro (Grupo 1)</summary>
-
-- Neste grupo você preenche **apenas o Registro do Ciclo 03**. O **Checkpoint Conceitual** e os **Campos 03 e 04** deste ciclo estão no **Grupo 2**.
-- Item 3: nomeie os **operadores** (aritméticos, relacionais, lógicos) e os **tipos** que usou. Se montou fluxogramas, cite o que o fluxograma ajudou a perceber.
-- Item 4: registre erros de precedência de operadores, divisão por zero ou confusão entre `=` e `==`, com a causa técnica.
-</details>
+1. **Desafio do ciclo (em 1 frase):** Compreender os comandos básicos de entrada e saída de dados e aprender a utilizá-los em programas desenvolvidos com Python.
+2. **O que implementei (commits / arquivos / links):** Trabalhei com os comandos input() e print(), entendendo como receber informações digitadas pelo usuário e apresentar resultados na tela. Essas atividades foram um dos primeiros contatos práticos com a construção de programas em Python.
+3. **Objeto(s) de conhecimento mobilizado(s):** Entrada de dados com input().
+Saída de dados com print().
+Sintaxe básica da linguagem Python.
+Interação entre usuário e programa.
+4. **Desvio ou erro encontrado + causa técnica:** Mesmo conhecendo os comandos apresentados, eu ainda precisava de ajuda para montar os códigos. Minha dificuldade estava em compreender a sintaxe e organizar corretamente as instruções, pois ainda estava desenvolvendo minha familiaridade com a linguagem.
+5. **Decisão de ajuste + fonte:** A decisão foi continuar praticando os comandos básicos e observar como cada instrução funciona dentro do programa. O objetivo era compreender a lógica por trás dos códigos, em vez de apenas copiar exemplos. A referência efetivamente utilizada nas aulas precisa ser confirmada.
+6. **Feedback recebido e o que mudei:** Ainda precisava de orientação para desenvolver as atividades. Não tenho um feedback específico documentado para afirmar que houve uma alteração decorrente dele.
+7. **Próximo passo:** Continuar praticando entrada e saída de dados, avançando para a utilização de variáveis, tipos de dados e operações básicas.
 
 #### Registro do Ciclo 03 — 26/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. *Desafio do ciclo (em 1 frase):  Compreender como utilizar operadores matemáticos e relacionais e entender como os fluxogramas ajudam a representar a lógica de um programa.
+2. *O que implementei (commits / arquivos / links):*   Realizei exercícios práticos utilizando operadores matemáticos em Python, como adição, subtração, multiplicação e divisão. Também estudei fluxogramas, aprendendo como representar visualmente as etapas e instruções de um algoritmo.
+3. *Objeto(s) de conhecimento mobilizado(s):*   Operadores aritméticos (+, -, *, /).
+Operadores relacionais (==, >, <, !=).
+Fluxogramas e representação de algoritmos.
+Símbolos de início/fim, entrada/saída, processamento e decisão.
+4. *Desvio ou erro encontrado + causa técnica:*   Minha principal dificuldade era organizar os comandos e utilizar corretamente os operadores dentro do código. Mesmo entendendo as operações matemáticas, ainda precisava de ajuda para estruturar as instruções em Python e executar os cálculos corretamente.
+5. *Decisão de ajuste + fonte:  Continuar praticando operadores matemáticos e relacionais, além de utilizar fluxogramas para organizar a lógica dos programas antes de iniciar a programação. A decisão foi praticar mais exercícios utilizando operadores matemáticos e relacionais, buscando compreender como cada operador funciona. Também procurei entender melhor os fluxogramas para organizar a sequência lógica dos programas antes de escrever o código.
+6. *Feedback recebido e o que mudei:*   O estudo dos fluxogramas ajudou a compreender melhor a organização das etapas de um programa. Percebi que representar visualmente a sequência de instruções facilita o entendimento da lógica antes de escrever o código em Python.
+7. *Próximo passo:*   Continuar praticando operadores matemáticos e relacionais, além de utilizar fluxogramas para organizar a lógica dos programas antes de iniciar a programação.
 
 ## 🟢 CICLO 04 — 02/09 — Estruturas condicionais: `if`, `elif`, `else`
 
@@ -291,13 +298,17 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como utilizar estruturas condicionais em Python para fazer o programa executar diferentes instruções de acordo com determinadas condições.
+2. **O que implementei (commits / arquivos / links):**  Realizei exercícios práticos utilizando as estruturas condicionais if, elif e else. Aprendi que elas permitem criar condições dentro do programa, fazendo com que diferentes comandos sejam executados dependendo dos valores recebidos.Realizei exercícios práticos utilizando as estruturas condicionais if, elif e else. Aprendi que elas permitem criar condições dentro do programa, fazendo com que diferentes comandos sejam executados dependendo dos valores recebidos.
+3. **Objeto(s) de conhecimento mobilizado(s):** Estrutura condicional if.
+Estrutura condicional elif.
+Estrutura condicional else.
+Operadores relacionais e lógicos.
+Tomada de decisão em algoritmos.
+4. **Desvio ou erro encontrado + causa técnica:** Minha principal dificuldade era saber como organizar e aplicar as estruturas condicionais dentro dos códigos. Mesmo entendendo a função do if, elif e else, ainda precisava de ajuda para construir as condições corretamente e definir quais instruções deveriam ser executadas em cada situação.
+5. **Decisão de ajuste + fonte:** A decisão foi continuar praticando exercícios com estruturas condicionais, buscando compreender a função de cada comando e como utilizá-los em diferentes situações.
+6. **Feedback recebido e o que mudei:** Com as explicações e a prática dos exercícios, comecei a compreender melhor o funcionamento das estruturas condicionais. Mesmo precisando de ajuda inicialmente, consegui desenvolver exercícios sozinho depois de entender como utilizar if, elif e else.
+7. **Próximo passo:** Continuar praticando estruturas condicionais e avançar para conteúdos mais complexos, buscando desenvolver maior autonomia na construção de programas em Python
 
 ---
 
