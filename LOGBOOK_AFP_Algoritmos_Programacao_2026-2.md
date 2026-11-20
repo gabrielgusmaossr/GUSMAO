@@ -401,17 +401,15 @@ Tomada de decisão em algoritmos.
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59*
 
 **3a. O que descobri que mudou minha compreensão do problema (mínimo 2 achados, com objeto de conhecimento associado):**
-1. _…_ — *Objeto de conhecimento:* _…_
-2. _…_ — *Objeto de conhecimento:* _…_
-3. _…_ *(opcional)*
+Primeira descoberta — Estruturas de repetição: compreendi que a condição de parada da estrutura while é fundamental para controlar a execução do programa e evitar repetições infinitas. Esse aprendizado está relacionado aos objetos de conhecimento estruturas de repetição e controle de fluxo.
+Segunda descoberta — Organização dos dados: percebi que utilizar listas contendo dicionários facilita o armazenamento e a organização de vários produtos, permitindo acessar informações específicas, como nome, preço e estoque. Esse aprendizado está relacionado aos objetos de conhecimento listas, dicionários e estruturas de dados.
 
 **3b. Desvio em relação ao Campo 02 (ao menos 1 — causa técnica):**
-- **Desvio:** _…_
-- **Causa técnica:** _…_
+Durante a execução do projeto, consegui desenvolver as funcionalidades que haviam sido planejadas inicialmente para o CRUD. Não houve necessidade de retirar ou simplificar funcionalidades previstas. Entretanto, durante a implementação, surgiram dificuldades pontuais, como a repetição infinita no while e a localização de produtos na busca, que foram trabalhadas e corrigidas ao longo do desenvolvimento.
 
 **3c. Decisão de ajuste (ao menos 1) com justificativa e fonte:**
-- **Decisão:** _…_
-- **Fonte:** _…_
+Durante o desenvolvimento, decidi ajustar a lógica de busca dos produtos para melhorar a localização dos registros armazenados na lista de dicionários. Com o apoio do ChatGPT, consegui compreender melhor como acessar as informações por meio das chaves dos dicionários e organizar as condições de busca. Essa decisão está relacionada aos objetos de conhecimento listas, dicionários, estruturas condicionais e busca de dados.
+Fonte utilizada: ChatGPT, como ferramenta de apoio à compreensão e correção da lógica de busca.
 
 **Objeto de conhecimento mobilizado nesta decisão:** _…_
 
@@ -420,23 +418,25 @@ Tomada de decisão em algoritmos.
 
 > **Obrigatório e avaliado. Print sem análise crítica = devolução imediata. Reproduzir a IA sem questionamento = reprovado.**
 
-**4a. Ferramenta:** _…_  **Data:** _DD/MM/AAAA_
+**4a. Ferramenta utilizada: ChatGPT.
+
+Data: 14/10/2026 (data aproximada).
 
 **4b. Pergunta formulada (transcrita integralmente):**
 
-> _…_
+Estou desenvolvendo um sistema CRUD em Python inspirado no Mercado Livre. Estou utilizando uma lista chamada produtos, que armazena dicionários com informações como nome, preço e estoque. Estou tendo um pouco de dificuldade para desenvolver a lógica de busca e localizar produtos específicos dentro dessa estrutura. Como posso fazer essa busca corretamente, acessando os dados dos dicionários e utilizando estruturas condicionais e de repetição?
 
 **4c. Resposta da IA (resumida em parágrafo):**
 
-> _…_
+A IA explicou como percorrer a lista de produtos utilizando estruturas de repetição e verificar as informações armazenadas nos dicionários por meio de suas chaves. Também orientou como utilizar estruturas condicionais para comparar o produto pesquisado com os registros cadastrados, permitindo identificar se ele foi encontrado ou não.
 
 **4d. O que aceitei — com referência ao objeto de conhecimento do componente:**
 
-> _…_
+Aceitei as orientações relacionadas à utilização de estruturas de repetição e condicionais para percorrer a lista de produtos e localizar os registros desejados. Compreendi melhor como acessar os valores armazenados nos dicionários por meio de suas chaves, relacionando esse aprendizado aos objetos de conhecimento listas, dicionários, estruturas condicionais e estruturas de repetição.
 
 **4e. O que questionei ou descartei — com argumento técnico ou fonte:**
 
-> _…_
+Durante a interação, não descartei completamente a orientação da IA. Entretanto, considerei importante testar a lógica sugerida diretamente no código antes de aceitá-la. Após aplicar e verificar o funcionamento da busca, consegui identificar que a solução atendia à necessidade do sistema. Esse processo demonstrou que as sugestões da IA precisam ser testadas e validadas, principalmente em relação ao acesso às chaves dos dicionários e à comparação dos dados durante a busca. 
 
 ## 🟠 CICLO 05 — 09/09 — Condicionais aninhadas e operadores lógicos
 
@@ -471,13 +471,18 @@ Tomada de decisão em algoritmos.
 </details>
 
 #### Registro do Ciclo 06 — 30/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender e aplicar estruturas de repetição para manter o sistema em funcionamento contínuo e permitir a execução de tarefas repetidas, como percorrer e listar os produtos cadastrados.
+2. **O que implementei (commits / arquivos / links):** Utilizei a estrutura while para manter o menu principal do sistema em execução até que o usuário escolhesse a opção de sair. Também utilizei for para percorrer os produtos cadastrados e apresentar suas informações durante a listagem.
+3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas de repetição (for e while);
+Interrupção de laços com break;
+Controle do fluxo de execução;
+Iteração de elementos;
+Condições de parada;
+Processamento de dados
+4. **Desvio ou erro encontrado + causa técnica:** Durante o desenvolvimento, ocorreu um problema de repetição infinita, em que o programa continuava executando o laço sem encerrar como esperado. A causa estava relacionada ao controle da condição de parada do while, que precisava ser ajustada para permitir que a repetição fosse interrompida corretamente.
+5. **Decisão de ajuste + fonte:** Identifiquei que o problema estava relacionado à condição de parada da estrutura while. Analisei a lógica do código e ajustei a condição responsável por controlar a repetição, conseguindo corrigir o problema sozinho, sem precisar recorrer a uma fonte externa. Essa experiência ajudou a desenvolver minha capacidade de identificar erros e compreender melhor o funcionamento das estruturas de repetição
+6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** Não recebi feedback específico do professor ou dos colegas durante essa etapa. O desenvolvimento e a correção dos problemas foram realizados de forma independente, permitindo que eu exercitasse minha capacidade de analisar o código e encontrar soluções por conta própria.
+7. **Próximo passo:** Aprimorar o sistema Marketplace utilizando estruturas de dados, principalmente listas, para armazenar, organizar e manipular os produtos cadastrados, facilitando operações como adicionar, listar, atualizar e excluir informações
 
 ## 🟠 CICLO 07 — 07/10 — Listas: armazenamento e iteração
 
@@ -491,13 +496,18 @@ Tomada de decisão em algoritmos.
 </details>
 
 #### Registro do Ciclo 07 — 07/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como utilizar listas em Python para armazenar vários produtos, permitindo organizar, acessar e manipular os dados durante a execução do sistema Marketplace.
+2. **O que implementei (commits / arquivos / links):** Implementei uma lista chamada produtos, utilizada para armazenar os produtos cadastrados no sistema. Essa estrutura permitiu adicionar novos produtos, percorrer os registros para realizar listagens e manipular os dados durante as operações do CRUD.
+3. **Objeto(s) de conhecimento mobilizado(s):** Listas em Python;
+Armazenamento de dados;
+Índices e posições;
+Iteração com for;
+Métodos append() e pop();
+Manipulação de coleções.
+4. **Desvio ou erro encontrado + causa técnica:** Não enfrentei dificuldades significativas durante a utilização de listas. Consegui compreender como os produtos eram armazenados e como acessar e percorrer seus elementos para realizar as operações do sistema.
+5. **Decisão de ajuste + fonte:** Não foi necessário realizar ajustes específicos relacionados ao uso de listas, pois consegui aplicar os conceitos trabalhados em aula e utilizar a estrutura normalmente no desenvolvimento do CRUD.
+6. **Feedback recebido e o que mudei:** Utilizei o ChatGPT como principal fonte de apoio durante o desenvolvimento, principalmente para esclarecer dúvidas e reforçar meu entendimento sobre listas em Python. Não recebi avaliações ou sugestões específicas do professor ou dos colegas sobre essa parte do código.
+7. **Próximo passo:** Aprofundar os conhecimentos sobre estruturas de dados, estudando dicionários e mecanismos de busca em Python, para organizar melhor as informações dos produtos e facilitar a localização de registros específicos no sistema Marketplace.
 
 ## 🟠 CICLO 08 — 14/10 — Busca/consulta e introdução a dicionários e matrizes
 
@@ -512,13 +522,18 @@ Tomada de decisão em algoritmos.
 </details>
 
 #### Registro do Ciclo 08 — 14/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como organizar informações por meio de dicionários e desenvolver mecanismos de busca para localizar produtos cadastrados no sistema.
+2. **O que implementei (commits / arquivos / links):** Utilizei dicionários para armazenar as informações de cada produto, organizando os dados em pares de chave e valor, como nome, preco e estoque. Esses dicionários eram armazenados dentro da lista produtos, facilitando o acesso, a atualização e a organização dos registros
+3. **Objeto(s) de conhecimento mobilizado(s):** Dicionários em Python;
+Pares de chave e valor;
+Listas de dicionários;
+Busca de informações;
+Acesso e manipulação de dados;
+Estruturas de dados
+4. **Desvio ou erro encontrado + causa técnica:** Durante o desenvolvimento, tive um pouco de dificuldade para localizar produtos específicos no sistema. Essa dificuldade estava relacionada à lógica de busca e à identificação correta dos registros armazenados na lista de dicionários, exigindo atenção ao acesso às informações e às condições utilizadas para encontrar cada produto.
+5. **Decisão de ajuste + fonte:** Utilizei o ChatGPT como ferramenta de apoio para compreender melhor a lógica de busca e identificar como acessar corretamente as informações armazenadas nos dicionários. Com as orientações recebidas, consegui ajustar a lógica de localização dos produtos e melhorar o funcionamento da busca no sistema.
+6. **Feedback recebido e o que mudei:** Não recebi feedback específico do professor ou dos colegas durante essa etapa. O ChatGPT foi minha única fonte de apoio, auxiliando na compreensão da lógica de busca e na identificação de possíveis ajustes. A partir dessas orientações, consegui melhorar minha compreensão sobre a localização de produtos dentro das estruturas de dados.
+7. **Próximo passo:** Continuar aprimorando o sistema Marketplace, consolidando os conhecimentos sobre listas, dicionários e estruturas de busca, além de revisar a organização do código para garantir que as operações de cadastro, consulta, atualização e exclusão funcionem corretamente.
 
 ---
 
