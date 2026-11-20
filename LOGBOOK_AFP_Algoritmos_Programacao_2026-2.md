@@ -451,14 +451,14 @@ Tomada de decisão em algoritmos.
 </details>
 
 #### Registro do Ciclo 05 — 09/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
-
+1. **Desafio do ciclo (em 1 frase):** Compreender e aplicar estruturas condicionais para controlar o funcionamento do sistema e executar ações diferentes de acordo com a opção escolhida pelo usuário.
+2. **O que implementei (commits / arquivos / links):** Trabalhei na lógica do sistema Marketplace, utilizando estruturas condicionais if, elif e else para verificar as opções selecionadas no menu e direcionar o programa para as funcionalidades correspondentes
+3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas condicionais, fluxo de execução, tomada de decisão, operadores relacionais e comparação de valores
+4. **Desvio ou erro encontrado + causa técnica:** Não identifiquei dificuldades significativas durante a aplicação das estruturas condicionais. Consegui utilizar if, elif e else para organizar as decisões do sistema e direcionar cada opção do menu para sua respectiva funcionalidade.
+5. **Decisão de ajuste + fonte:** Durante o desenvolvimento, utilizei o ChatGPT como ferramenta de apoio para esclarecer dúvidas e compreender melhor a aplicação das estruturas condicionais if, elif e else. A partir das explicações recebidas, consegui organizar melhor a lógica de decisão do sistema e entender como cada condição influencia o fluxo de execução do programa.
+6. **Feedback recebido e o que mudei:** Não recebi um feedback formal do professor durante essa etapa. Entretanto, alguns colegas de turma tiveram a oportunidade de observar o código e conhecer a estrutura do sistema. Apesar dessas observações, não houve sugestões específicas de alterações, então mantive a implementação que já havia desenvolvido
+7. **Próximo passo:** Dar continuidade ao desenvolvimento do sistema Marketplace, aprofundando os conhecimentos em estruturas de repetição, principalmente for e while, para automatizar tarefas, facilitar a navegação pelo menu e permitir a execução contínua das funcionalidades do CRUD
+   
 ## 🟠 CICLO 06 — 30/09 — Devolutiva da P1 + repetição: `for`, `while`, `break`, `continue`
 
 <details>
