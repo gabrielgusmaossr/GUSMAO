@@ -1,0 +1,89 @@
+
+produtos = {}
+contador = 1
+
+
+def cadastrar_produto():
+    global contador
+
+    nome = input("Nome do produto: ")
+    preco = float(input("Preço: R$ "))
+    quantidade = int(input("Quantidade: "))
+
+    produtos[contador] = {
+        "nome": nome,
+        "preco": preco,
+        "quantidade": quantidade
+    }
+
+    print("Produto cadastrado!")
+    contador += 1
+
+
+def consultar_produtos():
+    if not produtos:
+        print("Nenhum produto cadastrado.")
+        return
+
+    for id_produto, produto in produtos.items():
+        print("\nID:", id_produto)
+        print("Nome:", produto["nome"])
+        print("Preço: R$", produto["preco"])
+        print("Quantidade:", produto["quantidade"])
+
+
+def atualizar_produto():
+    id_produto = int(input("Digite o ID do produto: "))
+
+    if id_produto in produtos:
+        produtos[id_produto]["nome"] = input("Novo nome: ")
+        produtos[id_produto]["preco"] = float(input("Novo preço: R$ "))
+        produtos[id_produto]["quantidade"] = int(input("Nova quantidade: "))
+
+        print("Produto atualizado!")
+    else:
+        print("Produto não encontrado.")
+
+
+def excluir_produto():
+    id_produto = int(input("Digite o ID do produto: "))
+
+    if id_produto in produtos:
+        del produtos[id_produto]
+        print("Produto excluído!")
+    else:
+        print("Produto não encontrado.")
+
+
+def menu():
+    while True:
+        print("\n===== MARKETPLACE =====")
+        print("1 - Cadastrar produto")
+        print("2 - Consultar produtos")
+        print("3 - Atualizar produto")
+        print("4 - Excluir produto")
+        print("5 - Sair")
+
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            cadastrar_produto()
+
+        elif opcao == "2":
+            consultar_produtos()
+
+        elif opcao == "3":
+            atualizar_produto()
+
+        elif opcao == "4":
+            excluir_produto()
+
+        elif opcao == "5":
+            print("Sistema encerrado!")
+            break
+
+        else:
+            print("Opção inválida!")
+
+
+menu()
